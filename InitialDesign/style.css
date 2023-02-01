@@ -1,0 +1,215 @@
+nav {
+    color: navy;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav a {
+    color: navy;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0;
+    border: 3px solid rgb(10, 201, 214);
+    flex: 1;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav a:active {
+    color: black !important; 
+}
+
+nav a:hover {
+    color:navy;
+    background-color: lightblue; 
+}
+h1 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 4em;
+    color: navy
+}
+
+h2{
+    /* margin-top: 120px; */
+    text-align: center;
+    font-size: 2em;
+    color:navy
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color:navy;
+}
+h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color:navy;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.box{
+    background-color: lightblue;
+    width: 15%;
+    height: 15%; 
+    margin: 0 10px;
+}
+.box p{
+    color:navy;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+/*technical portfolio*/
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+  
+.title-container {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+.summary {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.project-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 375px;
+    margin-right: 200px;
+    width: 45%;
+    text-align: right;
+}
+.me-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 475px;
+    margin-right: 200px;
+    width: 40%;
+    text-align: right;
+}
+  
+img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+  /*Links*/
+.github-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+  
+.github-box:hover {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+}
+  
+.github-box a {
+    text-decoration: none;
+    color: navy;
+}
+  
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: navy;
+}
+
+.link-box {
+    width: 120px;
+    height: 60px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.link-box:hover {
+    transform: scale(1.1);
+    font-size: 24px;
+    color: navy;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: navy;
+}
+
+/*ChatGPT*/
+.middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.left-container {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.right-container {
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
