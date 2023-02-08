@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>Technical Portfolio</title>
-        <link rel=stylesheet type=text/css href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css">
     </head>
     <body>
         <nav>
@@ -14,20 +16,41 @@
                 <a href="chatGPT.html">ChatGPT</a>
             </nav>
         </nav>
+        <button class="togbutton" onclick="toggleStyleSheet()">Toggle Style</button>
+        <script src="func.js"></script>
     </body>
     <div class="portfolio-container">
         <div class="title-container">
           <h4>Budget Modification Tool</h4>
-          <p>Created a virtual financer app which provided in depth support for budgeting of common households and businesses.
+          <h5>Created a virtual financer app which provided in depth support for budgeting of common households and businesses.
               Modeled comparison between User’s monthly expenses and U.S National Averages to show the trends in budgeting techniques and output suggestions to better financial literacy.
-              Incorporated Chase analytics to increase User accuracy by 35%.</p>
+              Incorporated Chase analytics to increase User accuracy by 35%. This was done at a TAMUHack, a hackathon which I partook in to further
+              hone my skills.</h5>
         </div>
         <div class="project-img">
           <img src="project.png" alt="Project Image">
         </div>
       </div>
-      <div class="github-box">
-        <a href="https://github.com" target="_blank">Git</a>
+      <a href="https://github.com" target="_blank">
+        <img src="github.jpeg" alt="Github Logo" id="git-logo">
+      </a>
+      <a href="https://tamuhack.com/" target="_blank">
+        <img src="th.png" alt="th Logo" id="th-logo">
+      </a>
+
+      <div class="s4container">
+        <img src="calc.png" alt="Image">
+        <p class="custom4-text">Budget Modification Tool</p>
+        <p class="custom3-text"> Created a virtual financer app which provided in depth support for budgeting of common households and businesses.
+          Modeled comparison between User’s monthly expenses and U.S National Averages to show the trends in budgeting techniques and output suggestions to better financial literacy.
+          Incorporated Chase analytics to increase User accuracy by 35%. This was done at a TAMUHack, a hackathon which I partook in to further
+          hone my skills.</p>
       </div>
+      <a href="https://github.com" target="_blank">
+        <img src="brownGit.png" alt="Github Logo" id="git2-logo">
+      </a>
+      <a href="https://tamuhack.com/" target="_blank">
+        <img src="th.png" alt="th Logo" id="th2-logo">
+      </a>
       
 </html>

@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>Service</title>
-        <link rel=stylesheet type=text/css href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css">
     </head>
     <body>
         <nav>
@@ -14,19 +16,21 @@
                 <a href="chatGPT.html">ChatGPT</a>
             </nav>
         </nav>
+        <button class="togbutton" onclick="toggleStyleSheet()">Toggle Style</button>
+        <script src="func.js"></script>
     </body>
     <div class="portfolio-container">
         <div class="title-container">
           <h4>BAPS Charities</h4>
           <div class="summary-container" style="height:200px; overflow-y:scroll;">
-            <p>I've had the privilege of guiding over 300 young people towards a brighter future through weekly classes and 
+            <h5>I've had the privilege of guiding over 300 young people towards a brighter future through weekly classes and 
                 organized events. I always strive to share my personal experiences and insights with them to help them grow 
                 academically, ethically, personally, and spiritually.
                 In addition to this, I have also been passionate about giving back to the community. 
                 I have organized successful Walkathons that raised over $100,000 in funds for cancer research and 
                 environmental safety. To make this happen, I collaborated with City Hall and BAPS Charities and worked 
                 hard to raise funds throughout the greater Houston area. The support and generosity of the community was truly 
-                inspiring, and I am proud to have made a positive impact in this way.</p>
+                inspiring, and I am proud to have made a positive impact in this way.</h5>
           </div>
           
         </div>
@@ -34,7 +38,34 @@
           <img src="Walkathon.jpeg" alt="Project Image">
         </div>
       </div>
-      <div class="github-box">
-        <a href="https://www.bapscharities.org/usa/" target="_blank">BAPS</a>
+      <a href="https://www.baps.org/" target="_blank">
+        <img src="baps.png" alt="Baps Logo" id="baps-logo">
+      </a>
+      <a href="https://www.bapscharities.org/usa/" target="_blank">
+        <img src="charities.png" alt="Baps Logo" id="charities-logo">
+      </a>
+
+      <div class="s7container">
+        <img src="bapschar.jpeg" alt="Image">
+        <p class="custom4-text">BAPS Charities</p>
+        <p class="custom3-text"> I've had the privilege of guiding over 300 young people towards a brighter future through weekly classes and 
+          organized events. I always strive to share my personal experiences and insights with them to help them grow 
+          academically, ethically, personally, and spiritually.
+          In addition to this, I have also been passionate about giving back to the community. 
+          I have organized successful Walkathons that raised over $100,000 in funds for cancer research and 
+          environmental safety. To make this happen, I collaborated with City Hall and BAPS Charities and worked 
+          hard to raise funds throughout the greater Houston area. The support and generosity of the community was truly 
+          inspiring, and I am proud to have made a positive impact in this way.</p>
       </div>
+      <div class="box4">
+        <a href="https://www.baps.org/" target="_blank">
+          <p>BAPS</p>
+        </a>
+    </div>
+    <div class="box3">
+      <a href="https://www.bapscharities.org/usa/" target="_blank">
+        <p>BAPS Charities</p>
+      </a>
+  </div>
+
 </html>

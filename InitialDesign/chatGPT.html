@@ -1,29 +1,72 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>ChatGPT</title>
-        <link rel=stylesheet type=text/css href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css">
+  <title>ChatGPT</title>
+</head>
+<body>
+    <nav>
         <nav>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="techPort.html">Technical Portfolio</a>
-                <a href="qual.html">Qualifications</a>
-                <a href="service.html">Service</a>
-                <a href="chatGPT.html">ChatGPT</a>
-            </nav>
+            <a href="index.html">Home</a>
+            <a href="techPort.html">Technical Portfolio</a>
+            <a href="qual.html">Qualifications</a>
+            <a href="service.html">Service</a>
+            <a href="chatGPT.html">ChatGPT</a>
         </nav>
-        <div class="middle-container">
-            <div class="left-container">
-                <h2>Bodybuilding vs Calisthenics</h2>
-                <p>This page will compare the differences between bodybuilding and calisthenics. The main aim of bodybuilding is to build muscle size and definition, while the main aim of calisthenics is to build strength, flexibility and overall body control.</p>
-            </div>
-            <div class="right-container">
-                <img src="ChatGPT.png" style="width: 50%; height: auto" alt="Bodybuilding vs Calisthenics Comparison">
-            </div>
-        </div>
-    </body>
-    <div class="github-box">
-        <a href="chat.openai.com" target="_blank">chatgpt</a>
-      </div>
+    </nav>
+  <header>
+    <h1>Bodybuilding vs Calisthenics</h1>
+  </header>
+
+  <section class="differences">
+    <div class="difference">
+      <h2 class="difference-title">Bodybuilding</h2>
+      <p class="difference-description">Bodybuilding is a form of strength training that focuses on building muscle mass and improving physical appearance through weightlifting exercises and proper nutrition. Bodybuilding typically involves lifting heavy weights with fewer repetitions and longer rest periods between sets.</p>
+    </div>
+
+    <div class="difference">
+      <h2 class="difference-title">Calisthenics</h2>
+      <p class="difference-description">Calisthenics is a form of bodyweight training that uses bodyweight exercises such as push-ups, pull-ups, and squats to build strength, flexibility, and coordination. Calisthenics places a strong emphasis on functional movement and dynamic, fluid motions that mimic real-life movements.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="links">
+      <a href="https://chat.openai.com/" target="_blank">OpenAI GPT-3</a>
+      <a href="https://towardsdatascience.com/how-chatgpt-works-the-models-behind-the-bot-1ce5fca96286" target="_blank">Artificial Intelligence</a>
+    </div>
+    <div class="box-container">
+        <h2 class="difference-title">Prompt</h2>
+      <p class="box-content">Write an html file with whatever css you desire that highlights the differences between 
+          bodybuilding and calesthenics. make sure the html file and css file are different files. provide 2 links at the bottom of the page, one for chatgpt and one for an website that describes how your 
+          AI works. follow the same style that you wrote. add this to the files. add a box container at the bottom, similar to the one you made for the previous style, where i can input a couple sentences.</p>
+    </div>
+  </footer>
+  
+  <div class="bodybuilding-section">
+    <div class="title">Bodybuilding</div>
+    <p>Bodybuilding is a form of strength training that involves the use of weights and resistance to build muscle size and strength. It is typically performed in a gym setting and focuses on specific muscle groups through a series of exercises.</p>
+  </div>
+
+  <div class="calisthenics-section">
+    <div class="title">Calisthenics</div>
+    <p>Calisthenics is a form of exercise that uses body weight as resistance to build strength and muscle. It can be performed anywhere and often involves using only your body weight and a few simple props, such as parallel bars or a pull-up bar, to perform a variety of exercises.</p>
+  </div>
+
+  <div class="gptContainer">
+    <div class="title">ChatGPT Prompt</div>
+    <p>Make a html page with css that highlights the differences between bodybuilding and calesthenics. For the spacing of how the page should be, there should be 3 containers. 1 container for bodybuilding, 1 for calesthenics, and 1 where i can put this prompt in there. There should also be 2 links at the bottom of the page linking to chatgpt and an AI article. the containers should be centered in the page, and theey should be atleast 100px away from the top of the page. html and css files should be seperate.</p>
+  </div>
+  <div class="links2">
+    <a href="https://chat.openai.com/" target="_blank">OpenAI GPT-3</a>
+    <a href="https://towardsdatascience.com/how-chatgpt-works-the-models-behind-the-bot-1ce5fca96286" target="_blank">Artificial Intelligence</a>
+  </div>
+
+
+
+  <button class="togbutton" onclick="toggleStyleSheet()">Toggle Style</button>
+  <script src="func.js"></script>
+</body>
 </html>
